@@ -6,3 +6,4 @@ int main(){
     cin>>name;
     cout <<"Namah Shivaya "<< name;
     return 0;
+}
