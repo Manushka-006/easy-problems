@@ -1,7 +1,8 @@
 #include <iostream>
+using namespace std;
 int main() {
     
-    std::cout << "Namah Shivaya!";
+    cout << "Namah Shivaya!"<<endl;
 
     return 0;
 }
