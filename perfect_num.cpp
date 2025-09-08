@@ -18,4 +18,5 @@ int main(){
         cout<<num<<" is not a perfect number"<<endl;
         
     }
+    return 0;
 }
