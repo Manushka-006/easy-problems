@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int num,i,j;
+    cout<<"Enter a number :"<<endl;
+    cin>>num;
+    for ( i =2;i<=num;i++){
+        for (j=2;j<i;j++){
+            if (i%j == 0){
+                break;
+            }
+        }
+        if (j == i){
+            cout<<i<<endl;
+        }
+    }
+    
+    return 0;
+}
